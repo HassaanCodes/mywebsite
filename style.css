@@ -29,15 +29,15 @@ main {
     flex-grow: 3;
     margin-top: 0;
 
-    background-image: url('night sky.jpg');
+    background-image: url('images/night sky.jpg');
     background-size: cover;
     background-repeat: no-repeat;
     background-position: bottom;
 }
 
 .main-exp {
-    background-image: linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6)),
-     url('night sky.jpg');
+    background-image: linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6))
+    , url('images/night sky.jpg');
 }
 
 nav {
@@ -167,7 +167,10 @@ footer h3 {
 .pos {
     display: flex;
     flex-direction: column;
-    gap: 20px;
+    gap: 40px;
+    border: 1px solid aliceblue;
+    border-radius: 12px;
+    padding: 25px;
 }
 
 .pos-title {
@@ -196,13 +199,17 @@ footer h3 {
     width: 37%;
     display: flex;
     flex-direction: column;
-    gap: 20px;
+    gap: 40px;
     align-items: flex-start;
 }
 
 .blog p {
-    border: 1px solid red;
     text-align: left;
+}
+
+.blog img {
+    width: 55%;
+    height: 35%;
 }
 
 
@@ -213,7 +220,7 @@ footer h3 {
     display: flex;
     flex-direction: column;
     align-items: center;
-    gap: 15px;
+    gap: 30px;
     padding: 30px;
 }
 
