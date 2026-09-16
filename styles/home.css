@@ -1,0 +1,28 @@
+
+.work-exp {
+    color: antiquewhite;
+    font-family: 'Yuyu';
+    margin: 70px auto;
+
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 50px;
+}
+
+.work-exp h1 {
+    padding-bottom: 20px;
+    border-bottom: 2px solid aqua;
+    width: 55%;
+    text-align: center;
+}
+
+.job {
+    width: 55%;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+}
+
+.end-align {
+    text-align: end;
+}
