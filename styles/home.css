@@ -2,7 +2,7 @@
 .work-exp {
     color: antiquewhite;
     font-family: 'Yuyu';
-    margin: 70px auto;
+    margin: 90px auto;
 
     display: flex;
     flex-direction: column;
@@ -25,4 +25,38 @@
 
 .end-align {
     text-align: end;
+}
+
+
+.projects {
+    color: antiquewhite;
+    font-family: 'Yuyu';
+    margin: 200px auto;
+
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 50px;
+}
+
+
+.projects h1 {
+    padding-bottom: 20px;
+    border-bottom: 2px solid aqua;
+    width: 55%;
+    text-align: center;
+}
+
+.project {
+    width: 55%;
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+
+
+video {
+    width: 70%;
+    height: auto;
+    align-self: center;
 }
